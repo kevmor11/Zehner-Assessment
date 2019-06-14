@@ -10,4 +10,4 @@ Take-home project I completed as part of a job application assessment for Zehner
 
 * Drinks Section - Carousel
 
-Given more time I could have built out an actual carousel in this section instead of just hardcoding the caroursel dots
+Given more time I could have built out an actual carousel in this section instead of just hardcoding the carousel dots
