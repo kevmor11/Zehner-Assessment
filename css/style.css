@@ -1,0 +1,319 @@
+span, div, p, a, h2 {
+  font-family: din-2014, sans-serif; }
+
+a {
+  cursor: pointer; }
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+h1.title {
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #231f20;
+  line-height: 1; }
+
+h2.title {
+  color: #231f20;
+  font-size: 30px; }
+
+a.cta, button.cta {
+  background-color: #ff5e48;
+  width: 170px;
+  height: 50px;
+  line-height: 3;
+  margin-top: 35px;
+  letter-spacing: .5px; }
+  a.cta.secondary, button.cta.secondary {
+    margin: 50px auto;
+    background-color: transparent;
+    color: #ff5e48 !important;
+    border: 1px solid #ff5e48;
+    width: 205px; }
+
+hr.line {
+  width: 30px;
+  height: 2px;
+  border-top: 1px solid #ff5e48; }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999; }
+  header div.notification-bar {
+    background-color: #231f20;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 15px 0;
+    letter-spacing: .5px; }
+    header div.notification-bar a.details {
+      font-weight: 700;
+      text-decoration: underline; }
+  header div.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 30px;
+    position: relative; }
+    header div.header span.nav-links.left {
+      margin-left: 7vw; }
+    header div.header span.nav-links a {
+      margin-right: 1.7vw;
+      letter-spacing: .5px; }
+      header div.header span.nav-links a.opened {
+        color: #f15b4c; }
+    header div.header img.logo {
+      left: 0;
+      right: 0;
+      top: 25px;
+      margin: 0 auto; }
+    header div.header img.cart-icon {
+      vertical-align: baseline;
+      margin-right: 3px; }
+    header div.header span.cart-total {
+      color: #f15b4c;
+      font-size: 13px; }
+  header div#shop-dropdown {
+    box-shadow: 2px 4px 11px -11px rgba(0, 0, 0, 0.3);
+    top: 133px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #ffffff;
+    display: none; }
+    header div#shop-dropdown div.link-container {
+      margin-left: 150px; }
+      header div#shop-dropdown div.link-container a {
+        display: block;
+        margin-top: 18px;
+        font-size: 13px; }
+
+section.hero div.text-container {
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 12vw 120px; }
+  section.hero div.text-container div.desc {
+    margin-top: 50px; }
+
+section.you-buy-it {
+  padding: 50px 16vw; }
+  section.you-buy-it h2.title {
+    margin-bottom: 0; }
+  section.you-buy-it div.desc {
+    font-size: 15px;
+    max-width: 430px;
+    margin: 0 auto;
+    margin-top: 50px; }
+  section.you-buy-it div.num-container {
+    width: 200px;
+    margin: 0 auto; }
+    section.you-buy-it div.num-container div.num {
+      font-size: 150px;
+      font-weight: 700;
+      color: #ff5e48; }
+    section.you-buy-it div.num-container div.title {
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 80%; }
+      section.you-buy-it div.num-container div.title span.underline {
+        border-bottom: 1px solid black;
+        display: block; }
+      section.you-buy-it div.num-container div.title div {
+        line-height: 1;
+        font-size: 14px;
+        margin-top: 4px; }
+  section.you-buy-it a.cta {
+    margin: 0 auto; }
+
+section.drinks div.text-container {
+  top: 0;
+  left: 0;
+  padding-top: 80px;
+  height: 100%; }
+  section.drinks div.text-container div.desc {
+    max-width: 360px;
+    margin: 0 auto;
+    margin-top: 50px; }
+  section.drinks div.text-container div.dots {
+    bottom: 30px;
+    left: 0;
+    right: 0; }
+    section.drinks div.text-container div.dots span.dot {
+      width: 16px;
+      height: 16px;
+      background-color: white;
+      border-radius: 100%;
+      margin: 0 5px;
+      display: inline-block; }
+      section.drinks div.text-container div.dots span.dot.selected {
+        background-color: #ff5e48; }
+
+section.pick-your-pleasure {
+  padding: 50px 30px; }
+  section.pick-your-pleasure div.desc {
+    max-width: 360px;
+    margin: 50px auto; }
+  section.pick-your-pleasure div.image-wrapper:hover {
+    border: 1px solid #ff5e48; }
+  section.pick-your-pleasure div.image-wrapper div.hover-container {
+    display: none;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%; }
+    section.pick-your-pleasure div.image-wrapper div.hover-container:hover {
+      background-color: rgba(255, 255, 255, 0.6); }
+    section.pick-your-pleasure div.image-wrapper div.hover-container div.hover-text {
+      font-size: 15px;
+      font-weight: 700;
+      color: #ff5e48; }
+
+section.cleanse {
+  position: relative; }
+  section.cleanse div.text-container {
+    top: 0;
+    left: 0;
+    padding-top: 80px;
+    height: 100%; }
+    section.cleanse div.text-container h1.title {
+      margin-bottom: 30px; }
+    section.cleanse div.text-container div.desc {
+      max-width: 390px;
+      margin: 30px auto;
+      margin-bottom: 100px; }
+    section.cleanse div.text-container a.cta {
+      width: 230px; }
+
+section.locations.pick-your-pleasure {
+  padding: 60px 10px 600px; }
+  section.locations.pick-your-pleasure h1.title {
+    margin-bottom: 100px; }
+  section.locations.pick-your-pleasure div.title {
+    margin-top: 30px;
+    color: #ff5e48; }
+  section.locations.pick-your-pleasure a.cta {
+    width: 230px; }
+
+footer {
+  border-top: 1px solid #e1e1e1; }
+  footer div.footer-wrapper {
+    padding: 60px 9vw; }
+    footer div.footer-wrapper h4.title {
+      font-size: 18px;
+      margin-bottom: 30px; }
+    footer div.footer-wrapper h5.title {
+      font-size: 15px;
+      margin-bottom: 30px; }
+    footer div.footer-wrapper input.email {
+      width: 20vw;
+      min-width: 150px;
+      height: 40px;
+      padding: 10px;
+      margin-right: 15px;
+      vertical-align: middle; }
+    footer div.footer-wrapper button.cta.newsletter {
+      height: 40px;
+      line-height: 1;
+      margin: 0;
+      vertical-align: middle;
+      width: 100px; }
+      footer div.footer-wrapper button.cta.newsletter:hover {
+        background-color: #ff5e48;
+        color: white !important; }
+    footer div.footer-wrapper a.footer-link {
+      display: block;
+      font-size: 15px;
+      margin-bottom: 5px; }
+  footer div.footer-notes {
+    padding: 30px;
+    height: 70px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e1e1e1; }
+    footer div.footer-notes div, footer div.footer-notes a.footer-link-2 {
+      color: #999596;
+      font-size: 13px; }
+    footer div.footer-notes div.notes {
+      float: right; }
+      footer div.footer-notes div.notes a.footer-link-2 {
+        margin-left: 50px; }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  section.drinks div.text-container {
+    padding-top: 40px; }
+    section.drinks div.text-container div.desc, section.drinks div.text-container a.cta {
+      margin-top: 30px; } }
+@media (max-width: 991px) {
+  h1.title {
+    font-size: 30px; }
+
+  h2.title {
+    font-size: 20px; }
+
+  div.desc, a.cta {
+    margin-top: 15px !important; }
+
+  header div.header {
+    padding: 10px;
+    height: 80px; }
+    header div.header img.logo {
+      width: 90%; }
+
+  section {
+    text-align: center !important; }
+
+  section.hero img {
+    height: 64vw;
+    object-fit: cover; }
+  section.hero div.text-container {
+    padding: 20px; }
+
+  section.drinks img {
+    height: 94vw;
+    object-fit: cover; }
+  section.drinks div.text-container {
+    padding-top: 40px; }
+
+  section.pick-your-pleasure {
+    padding: 20px; }
+    section.pick-your-pleasure img.pleasure-image {
+      margin-bottom: 20px; }
+
+  section.cleanse img {
+    height: 94vw;
+    object-fit: cover; }
+  section.cleanse div.text-container {
+    padding-top: 40px; }
+    section.cleanse div.text-container div.desc {
+      margin-bottom: 40px; }
+
+  section.locations.pick-your-pleasure {
+    padding: 20px; }
+    section.locations.pick-your-pleasure h1.title {
+      margin-bottom: 30px; }
+    section.locations.pick-your-pleasure img {
+      margin-bottom: 20px; }
+
+  footer input {
+    border: 1px solid gray; }
+  footer div.footer-wrapper h5.title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700; }
+  footer div.footer-wrapper h5.title, footer div.footer-wrapper a.footer-link {
+    text-align: center;
+    display: block; }
+  footer div.footer-notes {
+    text-align: center;
+    height: auto; }
+    footer div.footer-notes div.notes {
+      float: none; }
+      footer div.footer-notes div.notes a.footer-link-2 {
+        display: block;
+        margin-left: 0;
+        margin-top: 10px; } }
+
+/*# sourceMappingURL=style.css.map */
