@@ -260,7 +260,8 @@ footer {
     padding: 10px;
     height: 80px; }
     header div.header img.logo {
-      width: 90%; }
+      width: 53vw;
+      max-width: 300px; }
 
   section {
     text-align: center !important; }
