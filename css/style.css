@@ -157,20 +157,22 @@ section.pick-your-pleasure {
   section.pick-your-pleasure div.desc {
     max-width: 360px;
     margin: 50px auto; }
-  section.pick-your-pleasure div.image-wrapper:hover {
-    border: 1px solid #ff5e48; }
-  section.pick-your-pleasure div.image-wrapper div.hover-container {
-    display: none;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%; }
-    section.pick-your-pleasure div.image-wrapper div.hover-container:hover {
-      background-color: rgba(255, 255, 255, 0.6); }
-    section.pick-your-pleasure div.image-wrapper div.hover-container div.hover-text {
-      font-size: 15px;
-      font-weight: 700;
-      color: #ff5e48; }
+  section.pick-your-pleasure div.image-wrapper {
+    border: 1px solid transparent; }
+    section.pick-your-pleasure div.image-wrapper:hover {
+      border: 1px solid #ff5e48; }
+    section.pick-your-pleasure div.image-wrapper div.hover-container {
+      display: none;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%; }
+      section.pick-your-pleasure div.image-wrapper div.hover-container:hover {
+        background-color: rgba(255, 255, 255, 0.6); }
+      section.pick-your-pleasure div.image-wrapper div.hover-container div.hover-text {
+        font-size: 15px;
+        font-weight: 700;
+        color: #ff5e48; }
 
 section.cleanse {
   position: relative; }
