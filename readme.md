@@ -2,7 +2,7 @@
 
 Take-home project I completed as part of a job application assessment for Zehner. Did my best to throw together a rough mobile-version given that I only had Desktop assets to work with.
 
-https://zehner-assessment.000webhostapp.com
+http://zehner.epizy.com/
 
 ## Built With
 
